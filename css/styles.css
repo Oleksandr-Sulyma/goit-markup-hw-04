@@ -215,7 +215,7 @@ img {
 .hero {
   background: #2e2f42;
   padding: 188px 0;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -479,9 +479,7 @@ img {
 /* #region footer */
 .footer {
   background: #2e2f42;
-  width: 1440px;
-  height: 312px;
-  margin: 0 auto;
+  width: 100%;
   padding: 100px 0;
 }
 
