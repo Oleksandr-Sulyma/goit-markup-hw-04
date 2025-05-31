@@ -313,6 +313,7 @@ img {
   border-radius: 4px;
   background: #f4f4fd;
   margin-bottom: 8px;
+  height: 112px;
 }
 
 .about-icons {
@@ -346,9 +347,8 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 32px;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
+  /* padding: 0px 0px 32px 0px; */
   width: calc((100% - 24px * 3) / 4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -364,6 +364,7 @@ img {
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
+  padding: 32px 0;
   gap: 8px;
 }
 
